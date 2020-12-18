@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="680f5164-be6b-459b-8b79-c762ad3e0af1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/banksteel_develop_2.0/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\banksteel_develop_2.0\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bWhATyfcK6nw3Ee5jL72iHd2Uo" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project/产品线" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="profiler.calltree.filter" />
+  </component>
+  <component name="RunManager" selected="Application.TestThreadPools">
+    <configuration name="SwingLoginExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.swing.SwingLoginExample" />
+      <module name="testJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.swing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.banksteel.TestEnum" />
+      <module name="testJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.banksteel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestThreadPools" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.threadPool.TestThreadPools" />
+      <module name="testJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.threadPool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.banksteel.test" />
+      <module name="testJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.banksteel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.banksteel.test1" />
+      <module name="testJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.banksteel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestThreadPools" />
+        <item itemvalue="Application.TestEnum" />
+        <item itemvalue="Application.test1" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.SwingLoginExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="680f5164-be6b-459b-8b79-c762ad3e0af1" name="Default Changelist" comment="" />
+      <created>1588753613154</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588753613154</updated>
+      <workItem from="1588753616423" duration="696000" />
+      <workItem from="1589263482444" duration="1057000" />
+      <workItem from="1589356883708" duration="912000" />
+      <workItem from="1590049446167" duration="3188000" />
+      <workItem from="1591238795276" duration="677000" />
+      <workItem from="1591852811675" duration="1563000" />
+      <workItem from="1592372216322" duration="986000" />
+      <workItem from="1593690808593" duration="2985000" />
+      <workItem from="1594187770694" duration="1079000" />
+      <workItem from="1594286733815" duration="657000" />
+      <workItem from="1594967336752" duration="1246000" />
+      <workItem from="1595232480211" duration="1292000" />
+      <workItem from="1595474688452" duration="1259000" />
+      <workItem from="1595830036506" duration="626000" />
+      <workItem from="1595982643003" duration="239000" />
+      <workItem from="1596073788766" duration="654000" />
+      <workItem from="1597066876231" duration="1037000" />
+      <workItem from="1597718894698" duration="2120000" />
+      <workItem from="1597802309496" duration="16055000" />
+      <workItem from="1598405857247" duration="3002000" />
+      <workItem from="1598936919697" duration="4712000" />
+      <workItem from="1599011256760" duration="922000" />
+      <workItem from="1599025832531" duration="1435000" />
+      <workItem from="1599185606393" duration="3982000" />
+      <workItem from="1599548217091" duration="8442000" />
+      <workItem from="1600156559277" duration="11642000" />
+      <workItem from="1600763302885" duration="683000" />
+      <workItem from="1600943990796" duration="1530000" />
+      <workItem from="1602226197761" duration="2324000" />
+      <workItem from="1603069634413" duration="701000" />
+      <workItem from="1603852761938" duration="2477000" />
+      <workItem from="1604566762144" duration="2495000" />
+      <workItem from="1604641423741" duration="2751000" />
+      <workItem from="1604969627841" duration="3852000" />
+      <workItem from="1605166817819" duration="5910000" />
+      <workItem from="1605488333274" duration="3174000" />
+      <workItem from="1605667694417" duration="2950000" />
+      <workItem from="1608107583659" duration="5733000" />
+      <workItem from="1608258336510" duration="3536000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1608260829080">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608260829080" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608110972120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608110972120" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1608261820613">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608261820613" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1608261820613">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608261820613" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1608261820612">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608261820612" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1608261820613">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608261820613" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1608261529132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608261529132" />
+    <state x="681" y="261" width="582" height="524" key="StructurePopup" timestamp="1604642461028">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="261" width="582" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1604642461028" />
+    <state x="334" y="221" key="new project wizard" timestamp="1600054230928">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="221" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1600054230928" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1605488385077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605488385077" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608259705333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608259705333" />
+  </component>
+</project>
