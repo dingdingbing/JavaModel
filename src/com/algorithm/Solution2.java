@@ -42,6 +42,71 @@ package com.algorithm;
  */
 public class Solution2 {
 
+    // 遍历数组
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        // 解题思路：需要有一个值表示进位，并且两个链表长度不同时，可以用0代替
+        // 初始进位是0
+        int carry = 0;
+        // 方法返回的链表头，返回的时候取result.next即可
+        ListNode result = new ListNode(-1);
+
+        // 此时p指向了result的地址，-1
+        ListNode p = result;
+        // 当l1 l2遍历结束 && 进位=0的时候，while循环结束
+        while (l1 != null || l2 != null || carry > 0) {
+            // 如果当前节点为null，则值可用0替代
+            int a = l1 == null ? 0 : l1.val;
+            int b = l2 == null ? 0 : l2.val;
+            int sum = a + b + carry;
+
+            carry = sum / 10;
+
+            // p指向地址的next = sum%10  也就是result.next = sum%10
+            p.next = new ListNode(sum % 10);
+            // 取链表后面的值继续while循环
+            l1 = l1 == null ? null : l1.next;
+            l2 = l2 == null ? null : l2.next;
+            // 重点：指针需要往后偏移一位
+            p = p.next;
+        }
+        return result.next;
+    }
+
+    public ListNode addTwoNumbers2(ListNode l1, ListNode l2) {
+        ListNode p1 = l1, p2 = l2;
+        ListNode dummy = new ListNode(-1);
+        ListNode p = dummy;
+        int carry = 0, newVal = 0;
+        while (p1 != null || p2 != null || carry > 0) {
+            newVal = (p1 == null ? 0 : p1.val) + (p2 == null ? 0 : p2.val) + carry;
+            carry = newVal / 10;
+            newVal %= 10;
+            p.next = new ListNode(newVal);
+            p1 = p1 == null ? null : p1.next;
+            p2 = p2 == null ? null : p2.next;
+            p = p.next;
+        }
+        return dummy.next;
+    }
+
+    public static void main(String[] args) {
+        ListNode l1 = new ListNode(2);
+        l1.next = new ListNode(4);
+        l1.next.next = new ListNode(3);
+
+        ListNode l2 = new ListNode(5);
+        l2.next = new ListNode(6);
+        l2.next.next = new ListNode(4);
+
+        ListNode listNode = new Solution2().addTwoNumbers(l1, l2);
+        while (listNode != null) {
+            System.out.print(listNode.val);
+            listNode = listNode.next;
+        }
+
+    }
+
+
 }
 
 class ListNode {
