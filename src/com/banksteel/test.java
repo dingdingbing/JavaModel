@@ -14,6 +14,8 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 import javax.sound.midi.Soundbank;
 
 /**
@@ -25,8 +27,31 @@ import javax.sound.midi.Soundbank;
 public class test {
 
     private static final ExecutorService threadPool = Executors.newCachedThreadPool();
+    public final Object object = new Object();
+
+    public void testSynchronized() {
+        synchronized (object) {
+            System.out.println("1");
+            synchronized (object) {
+                System.out.println("2");
+                synchronized (object) {
+                    System.out.println("3");
+                }
+            }
+        }
+
+    }
+
+    public void testLock() {
+        ReentrantLock reentrantLock = new ReentrantLock();
+        reentrantLock.lock();
+
+        reentrantLock.unlock();
+    }
 
     public static void main(String[] args) {
+
+
         // Teacher teacher = new Teacher();
         // teacher.setTeaName("tea1");
         // Student student = new Student();
@@ -95,26 +120,29 @@ public class test {
         // } catch (Exception e) {
         //     e.printStackTrace();
         // }
-
-        try(FileInputStream fileInputStream = new FileInputStream("text.txt")) {
-            while (fileInputStream.read() > 0) {
-                System.out.println((char) fileInputStream.read());
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        // threadPool.submit(()->{
+        // double d = 2.00;
+        // Double aDouble = new Double(2.3);
+        // System.out.println(aDouble);
+        // System.out.println(d);
+        // try(FileInputStream fileInputStream = new FileInputStream("text.txt")) {
+        //     while (fileInputStream.read() > 0) {
+        //         System.out.println((char) fileInputStream.read());
+        //     }
+        // } catch (Exception e) {
+        //     e.printStackTrace();
+        // }
         //
-        // });
-        System.out.println(Math.round(1.25));
-        System.out.println(Math.round(1.49));
-        System.out.println(Math.round(1.51));
-
-        double d = 1.495;
-        BigDecimal bigDecimal = new BigDecimal(d);
-        double v = bigDecimal.setScale(2, BigDecimal.ROUND_HALF_DOWN).doubleValue();
-        System.out.println(v);
+        // // threadPool.submit(()->{
+        // //
+        // // });
+        // System.out.println(Math.round(1.25));
+        // System.out.println(Math.round(1.49));
+        // System.out.println(Math.round(1.51));
+        //
+        // double d = 1.495;
+        // BigDecimal bigDecimal = new BigDecimal(d);
+        // double v = bigDecimal.setScale(2, BigDecimal.ROUND_HALF_DOWN).doubleValue();
+        // System.out.println(v);
     }
 
     private void modifyStudent(Student student){
